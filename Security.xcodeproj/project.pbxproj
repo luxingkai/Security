@@ -15,6 +15,12 @@
 		1138A5B024A8862400022280 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A5AF24A8862400022280 /* main.m */; };
 		1138A5BA24A8862400022280 /* SecurityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A5B924A8862400022280 /* SecurityTests.m */; };
 		1138A5C524A8862400022280 /* SecurityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A5C424A8862400022280 /* SecurityUITests.m */; };
+		1138A5E324A8A1F700022280 /* AuthorizationAndAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A5E224A8A1F700022280 /* AuthorizationAndAuthentication.m */; };
+		1138A5E624A8A20800022280 /* SecureData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A5E524A8A20800022280 /* SecureData.m */; };
+		1138A5E924A8A21400022280 /* SecureCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A5E824A8A21400022280 /* SecureCode.m */; };
+		1138A5EC24A8A22E00022280 /* Cryptography.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A5EB24A8A22E00022280 /* Cryptography.m */; };
+		1138A5EF24A8A26100022280 /* ResultCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A5EE24A8A26100022280 /* ResultCodes.m */; };
+		1138A5F224A8A27900022280 /* LegacyInterfaces.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A5F124A8A27900022280 /* LegacyInterfaces.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		1138A5C024A8862400022280 /* SecurityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecurityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1138A5C424A8862400022280 /* SecurityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityUITests.m; sourceTree = "<group>"; };
 		1138A5C624A8862400022280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1138A5E124A8A1F700022280 /* AuthorizationAndAuthentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizationAndAuthentication.h; sourceTree = "<group>"; };
+		1138A5E224A8A1F700022280 /* AuthorizationAndAuthentication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorizationAndAuthentication.m; sourceTree = "<group>"; };
+		1138A5E424A8A20800022280 /* SecureData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecureData.h; sourceTree = "<group>"; };
+		1138A5E524A8A20800022280 /* SecureData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecureData.m; sourceTree = "<group>"; };
+		1138A5E724A8A21400022280 /* SecureCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecureCode.h; sourceTree = "<group>"; };
+		1138A5E824A8A21400022280 /* SecureCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecureCode.m; sourceTree = "<group>"; };
+		1138A5EA24A8A22E00022280 /* Cryptography.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cryptography.h; sourceTree = "<group>"; };
+		1138A5EB24A8A22E00022280 /* Cryptography.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cryptography.m; sourceTree = "<group>"; };
+		1138A5ED24A8A26100022280 /* ResultCodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultCodes.h; sourceTree = "<group>"; };
+		1138A5EE24A8A26100022280 /* ResultCodes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultCodes.m; sourceTree = "<group>"; };
+		1138A5F024A8A27900022280 /* LegacyInterfaces.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LegacyInterfaces.h; sourceTree = "<group>"; };
+		1138A5F124A8A27900022280 /* LegacyInterfaces.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LegacyInterfaces.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +123,18 @@
 				1138A59E24A8862300022280 /* AppDelegate.m */,
 				1138A5A324A8862300022280 /* ViewController.h */,
 				1138A5A424A8862300022280 /* ViewController.m */,
+				1138A5E124A8A1F700022280 /* AuthorizationAndAuthentication.h */,
+				1138A5E224A8A1F700022280 /* AuthorizationAndAuthentication.m */,
+				1138A5E424A8A20800022280 /* SecureData.h */,
+				1138A5E524A8A20800022280 /* SecureData.m */,
+				1138A5E724A8A21400022280 /* SecureCode.h */,
+				1138A5E824A8A21400022280 /* SecureCode.m */,
+				1138A5EA24A8A22E00022280 /* Cryptography.h */,
+				1138A5EB24A8A22E00022280 /* Cryptography.m */,
+				1138A5ED24A8A26100022280 /* ResultCodes.h */,
+				1138A5EE24A8A26100022280 /* ResultCodes.m */,
+				1138A5F024A8A27900022280 /* LegacyInterfaces.h */,
+				1138A5F124A8A27900022280 /* LegacyInterfaces.m */,
 				1138A5A624A8862300022280 /* Main.storyboard */,
 				1138A5A924A8862400022280 /* Assets.xcassets */,
 				1138A5AB24A8862400022280 /* LaunchScreen.storyboard */,
@@ -262,8 +292,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1138A5E624A8A20800022280 /* SecureData.m in Sources */,
 				1138A5A524A8862300022280 /* ViewController.m in Sources */,
 				1138A59F24A8862300022280 /* AppDelegate.m in Sources */,
+				1138A5EC24A8A22E00022280 /* Cryptography.m in Sources */,
+				1138A5E924A8A21400022280 /* SecureCode.m in Sources */,
+				1138A5EF24A8A26100022280 /* ResultCodes.m in Sources */,
+				1138A5F224A8A27900022280 /* LegacyInterfaces.m in Sources */,
+				1138A5E324A8A1F700022280 /* AuthorizationAndAuthentication.m in Sources */,
 				1138A5B024A8862400022280 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
